@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<!-- <html lang="en" data-bs-theme="dark" > -->
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <style>
+
+        /* body{
+            background-image: url("./WhatsApp\ Image\ 2023-07-07\ at\ 23.37.56.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        } */
+
+
+        h1{
+            font-family: 'Cinzel', serif;
+            text-align: center;   
+            color:black; 
+            font-size: 8vh;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            font-weight: 600;
+            background-image: url(./4193733.jpg);
+            background-size: cover;
+        }
+
+        .navbar> a{
+            width: 50%;
+            text-align: center;
+            margin-right: 5vh;
+            margin-left: 5vh;
+            padding: 30px; 
+            
+            
+        }
+
+        body > div.navbar{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            font-family: 'Cormorant Garamond', serif;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            
+        }
+
+        body > div.navbar > li >a{
+            text-decoration: none;
+            color:black;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        
+
+        body > div.front-page > h3{
+            background-image: url("./WhatsApp\ Image\ 2023-07-07\ at\ 23.37.56.jpg");
+            opacity: 90%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+            font-family: 'Ysabeau SC', sans-serif;
+            font-size: 100px;
+            padding-left: 50px;
+            text-align: left;
+            display: flex;
+            align-items:center;
+            color: white;
+            font-size: 50px;
+        }
+
+        h3{
+            padding-left: ;
+        }
+
+        body > h2:nth-child(7){
+            background-image: url(./4193733.jpg);
+            background-size: cover;
+            color: black;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 20px;
+            margin-top: 20px;
+        }
+       
+        body > div.about-me > h2{
+                font-size: 20px;
+        }
+
+        body > div.VITALS > h2{
+                font-size: 20px;
+        }
+
+        body > div.VITALS > div > div:nth-child(1) > div.col-md-5{
+                width: 50%;
+                height: 50%;
+        }
+
+        body > div.VITALS > div > footer{
+            width: 50px;
+        }
+
+        body > div.VITALS > div > div{
+            text-align: center;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 15px;
+        }
+        
+
+        
+
+        body > div.portfolio > img{
+            width : 100%;
+
+        }
+
+        body > div.portfolio{
+            width: 80%;
+            margin-left: 10%;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-rows: 1fr 1fr 1fr ;
+
+        }
+
+        body > h2{
+            font-family: 'Cinzel', serif;
+            text-align: center; 
+            font-weight: 600;  
+            color: black;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            font-size: 50px;
+            background-image: url(./4193733.jpg);
+            background-size: cover;
+            
+        }
+
+
+
+        body > div.about-me > h2{
+            font-family: 'Cinzel', serif;
+            text-align: center;   
+            color: black;
+            width: 100%;
+            font-weight: 600;
+            display: block;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            margin-bottom: 0px;
+            font-size: 50px;
+            background-image: url(./4193733.jpg);
+            background-size: cover;
+        }
+
+        body > div.about-me > p{
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 25px;
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: center;
+            font-weight: 600;
+            color:black;
+        }
+
+        body > div.VITALS > h2{
+            font-family: 'Cinzel', serif;
+            text-align: center;   
+            color: black;
+            font-weight: 600;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            margin-bottom: 0px;
+            font-size: 50px;
+            background-image: url(./4193733.jpg);
+            background-size: cover;
+        }
+
+        body > div.VITALS > p{
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        /* .carousel-indicators{
+            width: 40%;
+        } */
+
+        .container{
+            width: 120vh;
+            height: 120vh;
+        }
+       
+        body > div.VITALS > div > div > div.col-md-5 > img{
+            width: 100%;
+            height: 100%;
+        }
+
+        body > div.VITALS > div > footer > p > a{
+            text-decoration: none;
+            /* color: white; */
+        }
+
+        body > div.VITALS > div > footer{
+            width: 100%;
+        }
+
+        body > h2:nth-child(2){
+            font-size: 27px;
+            padding-top: 10px;
+        }
+
+        /* body > div.VITALS > div > div{
+            text-align: center;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 25px;
+        } */
+
+        body > div.stats{
+            text-align: center;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 23px;
+            font-weight: 600;
+            color: black;
+        }
+
+
+        body > footer{
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 25px;
+            /* color: white;    */
+
+        }
+
+
+        @media(max-width:768px){
+            body > div.front-page > h3{
+                background-image: url("WhatsApp\ Image\ 2023-07-09\ at\ 04.02.31.jpg");
+                font-size: 40px;
+            }
+
+            body > div.portfolio{
+            display: grid;
+            grid-template-columns: 1fr 1fr !important;
+            grid-template-rows: 1fr; 
+            }
+        }
+            
+        
+
+        @media(max-width:576px){
+            body > div.front-page > h3{
+                background-image: url("WhatsApp\ Image\ 2023-07-09\ at\ 04.02.31.jpg");
+                font-size: 40px;
+            }
+
+            body > div.portfolio{
+            display: grid;
+            grid-template-columns: 1fr!important;
+            grid-template-rows: 1fr;
+            }
+
+            body > div.about-me > p{
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+        }
+
+
+
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>RITU JHA
+    </h1>
+    <div class="navbar">
+        <li><a href="https://instagram.com/__ritu_jha?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a></li>
+        <li><a href="https://twitter.com/__ritu_jha?t=5CkopgwjLhFpOIilo8Z5RA&s=09">Twitter</a></li>
+        <li><a href=mailto:ritujhaaa48@gmail.com>Email</a></li>
+        <!-- <li><a href="">Linkedin</a></li> -->
+    </div>
+
+    <div class="front-page">
+        <h3 style="text-transform:uppercase; "  > with a passion<br> for fashion, beauty,<br> and creativity, I hope<br> highlight my versatility<br> and ability to adapt <br>to various styles and <br>concepts.
+        </h3>
+    </div>
+
+    
+    <h2>MY PORTFOLIO</h2>
+    
+
+    <div class="portfolio">
+        <img src="./WhatsApp Image 2023-07-15 at 12.23.37.jpg">
+        <img src="./WhatsApp Image 2023-07-15 at 14.10.02.jpg">
+        <video controls autoplay muted loop width="380px">
+            <source src="./WhatsApp Video 2023-07-11 at 20.24.52.mp4">
+        </video>
+        <img src="./WhatsApp Image 2023-07-15 at 12.11.04.jpg">
+        <img src="./WhatsApp Image 2023-07-15 at 14.21.20.jpg">
+        <img src="./WhatsApp Image 2023-07-15 at 12.15.15.jpg">
+        <video controls autoplay muted loop width="380px">
+            <source src="./WhatsApp Video 2023-07-15 at 12.05.23.mp4">
+        </video>
+        <img src="./WhatsApp Image 2023-07-15 at 14.30.44.jpg">
+        <img src="./WhatsApp Image 2023-07-15 at 12.15.13.jpg">
+        <img src="./WhatsApp Image 2023-07-15 at 12.15.14.jpg"> 
+        <video controls autoplay muted loop width="380px">
+            <source src="./WhatsApp Video 2023-07-15 at 14.38.23.mp4">
+        </video>
+        <video controls autoplay muted loop width="380px">
+            <source src="./WhatsApp Video 2023-07-15 at 14.49.37.mp4">
+        </video>
+        
+ 
+    </div> 
+    
+    
+    <div class="about-me">
+        <hr>
+        <h2>ABOUT ME</h2>
+        <hr>
+        <p>As a fresher in the modeling industry, I am excited to present my model portfolio, showcasing my unique qualities and potential as a professional model. With a passion for fashion, beauty, and creativity, I am ready to embark on this journey and make a mark in the industry.
+
+           <br> In this portfolio, you will find a collection of my best photographs that highlight my versatility and ability to adapt to various styles and concepts. 
+            I believe that modeling is not just about physical appearance but also about expressing emotions and telling stories through poses and expressions. My portfolio captures these elements by showcasing my ability to convey different moods and narratives in front of the camera.
+            
+            In addition to my visual representation, this portfolio also includes my measurements. It is important for me to provide a comprehensive overview of who I am as a model beyond just my looks.
+            
+            I am eager to collaborate with designers, photographers, stylists, and other industry professionals who share the same passion for creating captivating visuals. With an open mind and willingness to learn from every opportunity that comes my way, I am confident in my ability to grow as a model while contributing positively to the fashion industry.
+            
+           <br> Thank you for taking the time to review my model portfolio. I hope it reflects not only my potential but also the dedication and enthusiasm I bring to this profession. I look forward to connecting with you soon for potential collaborations or opportunities.</p>
+    </div>
+
+    <div class="VITALS">
+        <hr>
+        <h2>MY VITALS</h2>
+        <hr>
+    </div>
+
+    <div class="stats">
+        Height - 152 cm/ 5' 3" 
+        <br>
+        Weight - 47 kg
+        <br> 
+        Bust -  66 cm/26"
+        <br>
+        Waist - 71 cm/28" 
+        <br>
+        Hair - Black
+        <br>
+         Eyes - Black
+    </div>
+        
+        
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+              <li class="nav-item"><a href="https://instagram.com/__ritu_jha?igshid=OGQ5ZDc2ODk2ZA==" class="nav-link px-2 text-body-secondary">Instagram</a></li>
+              <li class="nav-item"><a href=mailto:ritujhaaa48@gmail.com class="nav-link px-2 text-body-secondary">Email</a></li>
+              <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> -->
+            </ul>
+            <p class="text-center text-body-secondary">© Ritu Jha, All rights reserved</p>
+            <p class="text-center text-body-secondary">Website designed by <a href="mailto:j444035@gmail.com">Kashish</a></p>
+          </footer>
+
+
+
+
+        
+    
+
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</html>
